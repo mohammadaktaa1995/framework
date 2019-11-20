@@ -1,6 +1,6 @@
 {
     "name": "wolfren/php-framework",
-    "description": "Php lite Framework",
+    "description": "Php Framework",
     "type": "library",
     "license": "MIT",
     "authors": [
@@ -18,7 +18,7 @@
     },
     "autoload" : {
         "psr-4" : {
-            "PhpFramework\\": "src/"
+            "Wolfren\\": "src/"
         },
         "files" : [
             "src/Helpers/helper.php"
