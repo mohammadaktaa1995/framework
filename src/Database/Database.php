@@ -1,15 +1,15 @@
 <?php
 
 
-namespace PhpFramework\Database;
+namespace Wolfren\Database;
 
 
 use Exception;
 use PDO;
 use PDOException;
-use PhpFramework\File\File;
-use PhpFramework\Http\Request;
-use PhpFramework\Url\Url;
+use Wolfren\File\File;
+use Wolfren\Http\Request;
+use Wolfren\Url\Url;
 
 class Database
 {
@@ -90,7 +90,7 @@ class Database
     }
 
     /**
-     * @return \PhpFramework\Database\Database
+     * @return \Wolfren\Database\Database
      * @throws \Exception
      */
     public static function select()
@@ -103,7 +103,7 @@ class Database
     }
 
     /**
-     * @return \PhpFramework\Database\Database
+     * @return \Wolfren\Database\Database
      * @throws \Exception
      */
     private static function instance()
@@ -142,7 +142,7 @@ class Database
      * @param $operator
      * @param $value
      *
-     * @return \PhpFramework\Database\Database
+     * @return \Wolfren\Database\Database
      * @throws \Exception
      */
     public static function orWhere($column, $operator, $value)
@@ -158,7 +158,7 @@ class Database
      * @param $value
      * @param  null  $type
      *
-     * @return \PhpFramework\Database\Database
+     * @return \Wolfren\Database\Database
      * @throws \Exception
      */
     public static function where($column, $operator, $value, $type = null)
@@ -185,7 +185,7 @@ class Database
      * @param $operator
      * @param $second
      *
-     * @return \PhpFramework\Database\Database
+     * @return \Wolfren\Database\Database
      * @throws \Exception
      */
     public static function rightJoin($table, $first, $operator, $second)
@@ -202,7 +202,7 @@ class Database
      * @param $second
      * @param $type
      *
-     * @return \PhpFramework\Database\Database
+     * @return \Wolfren\Database\Database
      * @throws \Exception
      */
     public static function join($table, $first, $operator, $second, $type = "INNER")
@@ -218,7 +218,7 @@ class Database
      * @param $operator
      * @param $second
      *
-     * @return \PhpFramework\Database\Database
+     * @return \Wolfren\Database\Database
      * @throws \Exception
      */
     public static function leftJoin($table, $first, $operator, $second)
@@ -232,7 +232,7 @@ class Database
      * @param $column
      * @param  string  $direction
      *
-     * @return \PhpFramework\Database\Database
+     * @return \Wolfren\Database\Database
      * @throws \Exception
      */
     public static function orderBy($column, $direction = "ASC")
@@ -248,7 +248,7 @@ class Database
     }
 
     /**
-     * @return \PhpFramework\Database\Database
+     * @return \Wolfren\Database\Database
      * @throws \Exception
      */
     public static function groupBy()
@@ -266,7 +266,7 @@ class Database
      * @param $value
      * @param  null  $type
      *
-     * @return \PhpFramework\Database\Database
+     * @return \Wolfren\Database\Database
      * @throws \Exception
      */
     public static function having($column, $operator, $value, $type = null)
@@ -440,7 +440,7 @@ class Database
     /**
      * @param $table
      *
-     * @return \PhpFramework\Database\Database
+     * @return \Wolfren\Database\Database
      * @throws \Exception
      */
     public static function table($table)
@@ -478,7 +478,7 @@ class Database
     /**
      * @param $limit
      *
-     * @return \PhpFramework\Database\Database
+     * @return \Wolfren\Database\Database
      * @throws \Exception
      */
     public static function limit($limit)
@@ -491,7 +491,7 @@ class Database
     /**
      * @param $offset
      *
-     * @return \PhpFramework\Database\Database
+     * @return \Wolfren\Database\Database
      * @throws \Exception
      */
     public static function offset($offset)

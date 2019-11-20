@@ -1,10 +1,10 @@
 <?php
 
 
-namespace PhpFramework\Router;
+namespace Wolfren\Router;
 
 
-use PhpFramework\Http\Request;
+use Wolfren\Http\Request;
 
 class Route
 {

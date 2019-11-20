@@ -1,7 +1,7 @@
 <?php
 
 
-namespace PhpFramework\Http;
+namespace Wolfren\Http;
 
 
 class Response

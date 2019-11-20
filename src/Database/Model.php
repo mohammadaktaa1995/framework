@@ -1,7 +1,7 @@
 <?php
 
 
-namespace PhpFramework\Database;
+namespace Wolfren\Database;
 
 
 abstract class Model extends Database

@@ -1,13 +1,13 @@
 <?php
 
-namespace PhpFramework\Bootstrap;
+namespace Wolfren\Bootstrap;
 
-use PhpFramework\Exception\Whoops;
-use PhpFramework\File\File;
-use PhpFramework\Http\Request;
-use PhpFramework\Http\Response;
-use PhpFramework\Router\Route;
-use PhpFramework\Session\Session;
+use Wolfren\Exception\Whoops;
+use Wolfren\File\File;
+use Wolfren\Http\Request;
+use Wolfren\Http\Response;
+use Wolfren\Router\Route;
+use Wolfren\Session\Session;
 
 class App
 {

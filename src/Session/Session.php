@@ -1,7 +1,7 @@
 <?php
 
 
-namespace PhpFramework\Session;
+namespace Wolfren\Session;
 
 
 class Session

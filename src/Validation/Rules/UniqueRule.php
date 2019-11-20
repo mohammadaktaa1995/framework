@@ -1,9 +1,9 @@
 <?php
 
 
-namespace PhpFramework\Validation\Rules;
+namespace Wolfren\Validation\Rules;
 
-use PhpFramework\Database\Database;
+use Wolfren\Database\Database;
 use Rakit\Validation\Rule;
 
 class UniqueRule extends Rule

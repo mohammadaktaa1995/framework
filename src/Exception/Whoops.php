@@ -1,6 +1,6 @@
 <?php
 
-namespace PhpFramework\Exception;
+namespace Wolfren\Exception;
 
 use Whoops\Handler\PrettyPageHandler;
 use Whoops\Run;

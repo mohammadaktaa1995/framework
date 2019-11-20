@@ -1,7 +1,7 @@
 <?php
 
 
-namespace PhpFramework\Url;
+namespace Wolfren\Url;
 
 
 use PhpFramework\Http\Request;

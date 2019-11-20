@@ -1,7 +1,7 @@
 <?php
 
 
-namespace PhpFramework\Cookie;
+namespace Wolfren\Cookie;
 
 
 class Cookie

@@ -1,11 +1,11 @@
 <?php
 
-namespace PhpFramework\Validation;
+namespace Wolfren\Validation;
 
-use PhpFramework\Http\Request;
-use PhpFramework\Http\Response;
-use PhpFramework\Session\Session;
-use PhpFramework\Url\Url;
+use Wolfren\Http\Request;
+use Wolfren\Http\Response;
+use Wolfren\Session\Session;
+use Wolfren\Url\Url;
 use Rakit\Validation\Validator;
 
 class Validate

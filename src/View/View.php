@@ -1,12 +1,12 @@
 <?php
 
 
-namespace PhpFramework\View;
+namespace Wolfren\View;
 
 
 use Jenssegers\Blade\Blade;
-use PhpFramework\File\File;
-use PhpFramework\Session\Session;
+use Wolfren\File\File;
+use Wolfren\Session\Session;
 
 class View
 {

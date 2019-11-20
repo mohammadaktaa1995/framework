@@ -1,6 +1,6 @@
 <?php
 
-namespace PhpFramework\File;
+namespace Wolfren\File;
 
 
 class File
